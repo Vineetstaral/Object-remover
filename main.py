@@ -33,7 +33,7 @@ if uploaded_file is not None:
         f.write(uploaded_file.getbuffer())
 
     # Display uploaded image
-    st.image(unique_filename, caption="Uploaded Image", use_column_width=True)
+    st.image(unique_filename, caption="Uploaded Image", use_container_width=True)
 
     # Input field for item to remove
     item_to_remove = st.text_input("Item to Remove", "bottle")
