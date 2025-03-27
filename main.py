@@ -19,7 +19,7 @@ cloudinary.config(
 )
 
 # Streamlit app for removing items using Cloudinary's Gen Remove
-st.title("Image Item Removal with Cloudinary's Gen Remove")
+st.title("Image Item Removal")
 
 # Upload image
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
